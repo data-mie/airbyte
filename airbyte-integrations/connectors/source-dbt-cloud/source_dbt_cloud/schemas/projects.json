@@ -3,15 +3,16 @@
   "type": "object",
   "properties": {
     "id": {
-      "type": ["null", "string"]
+      "type": ["null", "integer"]
     },
     "name": {
       "type": ["null", "string"]
     },
-    "years_of_service": {
-      "type": ["null", "integer"]
+    "created_at": {
+      "type": ["null", "string"],
+      "format": "date-time"
     },
-    "start_date": {
+    "updated_at": {
       "type": ["null", "string"],
       "format": "date-time"
     }

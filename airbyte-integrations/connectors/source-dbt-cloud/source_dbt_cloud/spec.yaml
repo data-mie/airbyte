@@ -7,7 +7,9 @@ connectionSpecification:
     - api_token
     - account_id
   properties:
-    # 'TODO: This schema defines the configuration required for the source. This usually involves metadata such as database and/or authentication information.':
-    TODO:
+    api_token:
       type: string
-      description: describe me
+      description: dbt Cloud API token
+    account_id:
+      type: integer
+      description: dbt Cloud account ID
